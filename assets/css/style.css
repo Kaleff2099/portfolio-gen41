@@ -359,7 +359,7 @@ html {
             position: absolute;
             top: 2px;
             left: 2px;
-            background-image: url(../img/MX.png);
+            background-image: url(../img/USA.png);
             background-size: cover;
             background-repeat: no-repeat;
             border-radius: 50%;
@@ -375,7 +375,7 @@ html {
             &::after {
               left: 40px;
               transform: translateX(-100%);
-              background-image: url(../img/USA.png);
+              background-image: url(../img/MX.png);
             }
           }
         }

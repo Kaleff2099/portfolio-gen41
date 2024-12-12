@@ -1,18 +1,19 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="keywords" content="Front-end, Back-end, Fullstack">
-  <meta name="description" content="Especialista en soporte técnico, desarrollador web y programador">
+  <meta name="description" content="Technical support specialist, web developer and programmer">
   <meta name="author" content="Dan Ornelas 'Kaleff2099'">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
     rel="stylesheet">
-  <title>Portafolio</title>
+  <title>Portfolio</title>
+  <!-- FAVICON -->
   <link rel="shortcut icon" href="assets/img/FavIcon.png" type="image/x-icon">
   <!-- ICONS -->
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
@@ -53,19 +54,19 @@
 
         <ul class="navbar__list flex--container">
           <li class="navbar__item">
-            <a class="navbar__link active" href="#home">Inicio</a>
+            <a class="navbar__link active" href="#home">Home</a>
           </li>
           <li class="navbar__item">
-            <a class="navbar__link" href="#about">Acerca de Mí</a>
+            <a class="navbar__link" href="#about">About Me</a>
           </li>
           <li class="navbar__item">
-            <a class="navbar__link" href="#skills">Habilidades</a>
+            <a class="navbar__link" href="#skills">Skills</a>
           </li>
           <li class="navbar__item">
-            <a class="navbar__link" href="#projects">Portafolio</a>
+            <a class="navbar__link" href="#projects">Portfolio</a>
           </li>
           <li class="navbar__item">
-            <a class="navbar__link" href="#contact">Contacto</a>
+            <a class="navbar__link" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -79,7 +80,8 @@
           </label>
         </div>
         <div class="navbar__toggle--language flex--container">
-          <input type="checkbox" name="language-toggle" id="language-toggle" class="navbar__toggle--language-input" />
+          <input type="checkbox" name="language-toggle" id="language-toggle" class="navbar__toggle--language-input"
+            checked />
           <label for="language-toggle" class="navbar__toggle--language-label"></label>
         </div>
       </div>
@@ -114,8 +116,8 @@
           </li>
           <li class="home__social-item">
             <a class="home__social-link"
-              href="https://wa.me/+525513651294/?text=¿Necesitas ayuda con un proyecto web? ¡Estoy aquí para ti!"
-              target="_blank" rel="noreferrer nofollow"><i class="bx bxl-whatsapp"></i></a>
+              href="https://wa.me/+525513651294/?text=Need help with a web project? I'm here for you!" target="_blank"
+              rel="noreferrer nofollow"><i class="bx bxl-whatsapp"></i></a>
           </li>
           <li class="home__social-item">
             <a class="home__social-link" href="https://github.com/Kaleff2099" target="_blank"><i class="bx bxl-github"
@@ -128,72 +130,67 @@
         </ul>
         <!-- INFO -->
         <div class="home__info">
-          <h1 class="home__title">Soy Dan Ornelas</h1>
+          <h1 class="home__title">I'm Dan Ornelas</h1>
 
           <p class="home__description">
-            Apasionado por la tecnologia y los videojuegos. <br>
-            Desarrollador Fullstack en progreso.
+            Passionate about technology and video games. <br>
+            Fullstack developer in progress.
           </p>
         </div>
         <!-- DOWNLOAD CV -->
         <div class="home__buttons">
-          <a class="btn btn--primary" href="assets/html/CV_2024.pdf" title="Descargar mi CV" download="Dan_cv"
+          <a class="btn btn--primary" href="assets/html/CV_2024_En.pdf" title="Download my CV" download="Dan_cv"
             rel="noreferrer nofollow">
-            Descargar CV
+            Download CV
           </a>
         </div>
       </div>
     </section>
     <!-- ABOUT SECTION -->
     <section id="about" class="about section">
-      <h2 class="section__title">Acerca de Mí</h2>
+      <h2 class="section__title">About Me</h2>
       <!-- ABOUT ME -->
       <div class="about__container grid--container">
         <p class="about__description">
-          Con más de 15 años de experiencia en el sector de la tecnología, me he dedicado a brindar soporte técnico de
-          alta calidad, por lo que he desarrollado una sólida trayectoria en la resolución de incidencias técnicas y la
-          satisfacción del cliente. Mi experiencia abarca desde el soporte técnico en hardware y software hasta el
-          desarrollo web, lo que me permite ofrecer un enfoque integral a la resolución de incidencias y el desarrollo
-          de soluciones innovadoras.
-          Actualmente me encuentro inmerso en el mundo del desarrollo web full-stack, ampliando mis conocimientos en
-          tecnologías como React, Node.js y Python.
+          Over 15 years of experience in the technology sector, I have dedicated myself to providing high-quality
+          technical support, which is why I have developed a solid track record in resolving technical issues and
+          customer satisfaction. My experience ranges from hardware and software technical support to web development,
+          allowing me to offer a comprehensive approach to problem solving and the development of innovative solutions.
+          I am currently immersed in the world of full-stack web development, expanding my knowledge in technologies
+          such as React, Node.js and Python.
         </p>
         <!-- CARDS -->
         <div class="about__cards flex--container">
           <!--Card 1 -->
           <div class="about__card">
-            <img class="about__card--img" src="assets/img/Me1.jpg" alt="Laborando como Technical Support Analyst II"
+            <img class="about__card--img" src="assets/img/Me1.jpg" alt="Working as Technical Support Analyst II"
               title="Technical Support Analyst II" />
           </div>
           <!--Card 2 -->
           <div class="about__card">
-            <img class="about__card--img" src="assets/img/Me2.jpg" alt="Laborando como Ingeniero de Campo"
-              title="Ingeniero de Campo" />
+            <img class="about__card--img" src="assets/img/Me2.jpg" alt="Working as a OnSite Engineer"
+              title="OnSite Engineer" />
           </div>
           <!--Card 3 -->
           <div class="about__card">
-            <img class="about__card--img" src="assets/img/Me3.jpg" alt="Nuevo desarrollador"
-              title="Nuevo desarrollador" />
+            <img class="about__card--img" src="assets/img/Me3.jpg" alt="New developer" title="New developer" />
           </div>
         </div>
       </div>
     </section>
 
     <section id="skills" class="skills section">
-      <h2 class="section__title">Habilidades</h2>
+      <h2 class="section__title">Skills</h2>
 
       <div class="skills__container grid--container">
         <p class="skills__description flex--container">
-          Mis principales fortalezas incluyen: <br>
-          Resolución de problemas: Capacidad para identificar y solucionar problemas técnicos de manera
-          eficiente,incluso en entornos complejos. Comunicación efectiva: Habilidad para explicar conceptos técnicos de
-          forma clara y concisa a usuarios con
-          diferentes niveles de conocimiento. Orientación al cliente: Compromiso con la satisfacción del cliente,
-          brindando un servicio de calidad y
-          personalizado. Trabajo en equipo: Experiencia colaborando en equipos multidisciplinarios para alcanzar
-          objetivos comunes.
-          Aprendizaje continuo: Entusiasmo por adquirir nuevos conocimientos y habilidades, manteniéndome actualizado en
-          las últimas tendencias tecnológicas.
+          My main strengths include: <br>
+          Problem Solving: Ability to efficiently identify and solve technical problems, even in complex environments.
+          Effective Communication: Ability to explain technical concepts clearly and concisely to users with different
+          levels of knowledge. Customer Focus: Commitment to customer satisfaction, providing quality and personalized
+          service. Teamwork: Experience collaborating in multidisciplinary teams to achieve common goals. Continuous
+          Learning: Enthusiasm for acquiring new knowledge and skills, keeping up to date with the latest technological
+          trends.
         </p>
 
         <div class="skills__wrapper flex--container">
@@ -207,9 +204,8 @@
                 <h3 class="skills__card-title">HTML</h3>
 
                 <p class="skills__card-description">
-                  Desarrollador web junior con una sólida base en HTML. Actualmente estoy profundizando mis
-                  conocimientos en frameworks como React y Node.js para construir aplicaciones web dinámicas y
-                  escalables.
+                  Junior web developer with a solid foundation in HTML. I am currently deepening my knowledge in
+                  frameworks such as React and Node.js to build dynamic and scalable web applications.
                 </p>
               </div>
             </details>
@@ -222,9 +218,8 @@
                 <h3 class="skills__card-title">CSS3</h3>
 
                 <p class="skills__card-description">
-                  Desarrollador web junior con una sólida base en HTML. Me encuentro en un proceso activo de aprendizaje
-                  de tecnologías actuales. Proactivo y con ganas de asumir nuevos desafíos en el mundo de la
-                  programación.
+                  Junior web developer with a solid foundation in HTML. I am actively learning about current
+                  technologies. Proactive and eager to take on new challenges in the world of programming.
                 </p>
               </div>
             </details>
@@ -237,9 +232,9 @@
                 <h3 class="skills__card-title">Javascript</h3>
 
                 <p class="skills__card-description">
-                  Desarrollador web en formación con habilidades en JavaScript y una sólida base en los fundamentos de
-                  la programación. Estoy explorando frameworks como React y Node.js para ampliar mis conocimientos y
-                  desarrollar aplicaciones web completas.
+                  Web developer in training with JavaScript skills and a solid foundation in programming fundamentals.
+                  I'm exploring frameworks like React and Node.js to expand my knowledge and develop full-featured web
+                  applications.
                 </p>
               </div>
             </details>
@@ -252,43 +247,43 @@
                 <h3 class="skills__card-title">React</h3>
 
                 <p class="skills__card-description">
-                  Entusiasta de la tecnología con conocimientos básicos en desarrollo web. Actualmente estoy aprendiendo
-                  React y Node.js para potenciar mis habilidades y contribuir a proyectos innovadores.
+                  Technology enthusiast with basic knowledge in web development. I am currently learning React and
+                  Node.js to enhance my skills and contribute to innovative projects.
                 </p>
               </div>
             </details>
           </div>
         </div>
         <div class="skills__tags flex--container">
-          <h3 class="skills__tags-title">Habilidades Blandas</h3>
+          <h3 class="skills__tags-title">Soft Skills</h3>
           <div class="skills__tags-container flex--container">
-            <span class="skills__tag">Comunicación efectiva</span>
-            <span class="skills__tag">Trabajo en equipo</span>
-            <span class="skills__tag">Creativo</span>
-            <span class="skills__tag">Resolución de problemas</span>
-            <span class="skills__tag">Proactivo</span>
-            <span class="skills__tag">Autodidacta</span>
+            <span class="skills__tag">Effective communication</span>
+            <span class="skills__tag">Teamwork</span>
+            <span class="skills__tag">Creative</span>
+            <span class="skills__tag">Troubleshooting</span>
+            <span class="skills__tag">Proactive</span>
+            <span class="skills__tag">Autodidact</span>
           </div>
         </div>
       </div>
     </section>
     <!-- PROJECTS SECTION -->
     <section id="projects" class="projects section">
-      <h2 class="section__title">Proyectos</h2>
+      <h2 class="section__title">Projects</h2>
 
       <div class="projects__container grid--container">
         <div class="projects__project">
           <div class="projects__inner grid--container">
             <div class="projects__image">
               <a href="assets/img/0.webp" target="_blank"><img src="assets/img/0.webp" alt="AI Image"
-                  title="Diseño con IA Generativa" /></a>
+                  title="Design with Generative AI" /></a>
             </div>
 
             <div class="projects__info">
-              <h3 class="projects__name">Diseño 1</h3>
+              <h3 class="projects__name">Design 1</h3>
               <p class="projects__description">
-                Especializándome en diseño generativo con IA. Explorando nuevas formas de crear a través de algoritmos y
-                machine learning.
+                Specializing in generative design with AI. Exploring new ways of creating through algorithms and machine
+                learning.
               </p>
             </div>
           </div>
@@ -298,13 +293,13 @@
           <div class="projects__inner grid--container">
             <div class="projects__image">
               <a href="assets/img/1.webp" target="_blank"><img src="assets/img/1.webp" alt="AI Image"
-                  title="En proceso de aprendizaje de diseño generativo." /></a>
+                  title="In the process of learning generative design." /></a>
             </div>
 
             <div class="projects__info">
-              <h3 class="projects__name">Diseño 2</h3>
+              <h3 class="projects__name">Design 2</h3>
               <p class="projects__description">
-                Combinando creatividad humana con la potencia de la IA.
+                Combining human creativity with the power of AI.
               </p>
 
             </div>
@@ -315,13 +310,13 @@
           <div class="projects__inner grid--container">
             <div class="projects__image">
               <a href="assets/img/2.webp" target="_blank"><img src="assets/img/2.webp" AI Image"
-                  title="Desarrollando habilidades en diseño generativo." /></a>
+                  title="Developing skills in generative design." /></a>
             </div>
 
             <div class="projects__info">
-              <h3 class="projects__name">Diseño 3</h3>
+              <h3 class="projects__name">Design 3</h3>
               <p class="projects__description">
-                Creando diseños innovadores con la ayuda de la inteligencia artificial.
+                Creating innovative designs with the help of artificial intelligence.
               </p>
 
             </div>
@@ -332,14 +327,13 @@
           <div class="projects__inner grid--container">
             <div class="projects__image">
               <a href="assets/img/3.png" target="_blank"><img src="assets/img/3.png" alt="AI Image"
-                  title="Proceso de aprendizaje continuo en el campo del diseño generativo." /></a>
+                  title="Continuous learning process in the field of generative design." /></a>
             </div>
 
             <div class="projects__info">
-              <h3 class="projects__name">Diseño 4</h3>
+              <h3 class="projects__name">Design 4</h3>
               <p class="projects__description">
-                Mi objetivo es dominar las herramientas y técnicas de IA para crear soluciones de diseño innovadoras y
-                personalizadas.
+                My goal is to master AI tools and techniques to create innovative and customized design solutions..
               </p>
 
             </div>
@@ -349,14 +343,13 @@
       <!-- CONTACT SECTION -->
     </section>
     <section id="contact" class="contact section">
-      <h2 class="section__title">Contacto</h2>
+      <h2 class="section__title">Contact</h2>
       <!-- LEFT BLOCK -->
       <div class="contact__container grid--container">
         <div class="contact__info">
-          <h3 class="contact__info-title">Información de contacto</h3>
+          <h3 class="contact__info-title">Contact information</h3>
           <p class="contact__info-description">
-            Busco oportunidades para aplicar mis conocimientos y habilidades en un entorno dinámico y
-            desafiante.
+            I look for opportunities to apply my knowledge and skills in a dynamic and challenging environment.
           </p>
 
           <address class="contact__info-data">
@@ -364,8 +357,8 @@
               <i class="bx bxl-whatsapp"></i>
 
               <span class="contact__info-number">
-                <a href="https://wa.me/+525513651294/?text=¿Necesitas ayuda con un proyecto web? ¡Estoy aquí para ti!"
-                  target="_blank" rel="noreferrer nofollow">¡Escríbeme por WhatsApp!</a>
+                <a href="https://wa.me/+525513651294/?text=Need help with a web project? I'm here for you!"
+                  target="_blank" rel="noreferrer nofollow">Write me on WhatsApp!</a>
               </span>
             </div>
 
@@ -398,37 +391,37 @@
         </div>
         <!-- FORM -->
         <div class="contact__form">
-          <h3 class="contact__form-title">Enviar mensaje</h3>
+          <h3 class="contact__form-title">Send message</h3>
 
           <form id="form" class="contact__form-container">
             <div class="contact__form-group">
-              <label for="name" class="contact__form-label">Nombre</label>
+              <label for="name" class="contact__form-label">Name</label>
               <input type="text" id="name" name="name" class="contact__form-input" required />
             </div>
 
             <div class="contact__form-group">
-              <label for="email" class="contact__form-label">Correo</label>
+              <label for="email" class="contact__form-label">Email</label>
               <input type="email" id="email" name="email" class="contact__form-input" required />
             </div>
 
             <div class="contact__form-group">
-              <label for="subject" class="contact__form-label">Asunto</label>
+              <label for="subject" class="contact__form-label">Subject</label>
               <input type="text" id="subject" name="subject" class="contact__form-input" required />
             </div>
 
             <div class="contact__form-group">
-              <label for="message" class="contact__form-label">Mensaje</label>
+              <label for="message" class="contact__form-label">Message</label>
               <textarea id="message" name="message" cols="30" rows="10" class="contact__form-input" required></textarea>
             </div>
             <!-- MODAL -->
             <dialog class="contact__form-modal" id="modal">
-              Formulario enviado con éxito!
+              Form sent successfully!
               <!-- CLOSE BTN -->
-              <button type="reset" id="btn_close-modal">Cerrar</button>
+              <button type="reset" id="btn_close-modal">Close</button>
             </dialog>
             <!-- SUBMIT BTN -->
             <button type="submit" class="btn contact__form-button">
-              Enviar
+              Send
             </button>
           </form>
         </div>
@@ -441,12 +434,12 @@
       <div class="footer__info">
         <h3 class="footer__title">DAN ORNELAS</h3>
         <p class="footer__description">
-          Apasionado por la tecnologia y los videojuegos. Desarrollador Fullstack en progreso.
+          Passionate about technology and video games. Fullstack developer in progress.
         </p>
       </div>
       <!-- SOCIAL ICON -->
       <div class="footer__social">
-        <h3 class="footer__title">Redes Sociales</h3>
+        <h3 class="footer__title">Social Media</h3>
 
         <ul class="footer__social-list">
           <li class="footer__social-item">
@@ -472,7 +465,7 @@
       </div>
     </div>
 
-    <p class="footer__copy"><i class='bx bx-copyright'></i><span> </span>Todos los derechos reservados</p>
+    <p class="footer__copy"><i class='bx bx-copyright'></i><span> </span>All rights reserved</p>
   </footer>
 </body>
 

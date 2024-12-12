@@ -1,5 +1,6 @@
 import activeMenu from "./components/active_menu.js";
 import parallax from "./components/parallax.js";
+import toggleLanguage from "./helpers/language.js";
 import loader from "./helpers/loader.js";
 import resetToHome from "./helpers/reload_home.js";
 import sendEmail from "./helpers/send_email.js";
@@ -11,3 +12,4 @@ activeMenu()
 resetToHome()
 sendEmail()
 updateCopyRightYear()
+toggleLanguage()
